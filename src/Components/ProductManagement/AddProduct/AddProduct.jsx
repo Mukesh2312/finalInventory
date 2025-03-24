@@ -532,9 +532,7 @@ const AddProduct = () => {
 
               <div className={stl.formBtnContainer}>
                 {/* <Link onClick={() => (navigate(-1))}> */}
-                <button type="submit" onClick={handlerclick}>
-                  Update
-                </button>
+                <button onClick={handlerclick}>Update</button>
 
                 {/* </Link> */}
                 <Link onClick={() => navigate(-1)}>
