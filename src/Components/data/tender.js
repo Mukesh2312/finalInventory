@@ -1,5 +1,6 @@
 const tenders = [
     {
+        tenderId: "100001",
         tenderName: "Construction of Community Hall",
         title: "E-Tender for Civil Construction Work",
         issueDate: "2025-05-20",
@@ -28,6 +29,7 @@ const tenders = [
         authorizedManager: "Mr. Rajeev Sharma"
     },
     {
+        tenderId: "100002",
         tenderName: "Supply of Office Furniture",
         title: "Tender for Procurement of Modular Furniture",
         issueDate: "2025-04-10",
@@ -56,6 +58,7 @@ const tenders = [
         authorizedManager: "Ms. Priya Mehta"
     },
     {
+        tenderId: "100003",
         tenderName: "Road Repair in Sector 15",
         title: "Asphalt Road Resurfacing",
         issueDate: "2025-03-01",
@@ -84,6 +87,7 @@ const tenders = [
         authorizedManager: "Er. Sameer Verma"
     },
     {
+        tenderId: "100004",
         tenderName: "Installation of Solar Panels",
         title: "Solar Energy Project for Govt Schools",
         issueDate: "2025-06-01",
@@ -112,6 +116,7 @@ const tenders = [
         authorizedManager: "Mr. Aditya Nair"
     },
     {
+        tenderId: "100005",
         tenderName: "IT Infrastructure AMC",
         title: "Annual Maintenance Contract for Servers",
         issueDate: "2025-01-15",
@@ -140,6 +145,7 @@ const tenders = [
         authorizedManager: "Ms. Kavita Rao"
     },
     {
+        tenderId: "100006",
         tenderName: "Printing of Books",
         title: "Tender for School Book Printing",
         issueDate: "2025-02-20",
@@ -168,6 +174,7 @@ const tenders = [
         authorizedManager: "Dr. Sunil Bhatt"
     },
     {
+        tenderId: "100007",
         tenderName: "CCTV Installation",
         title: "Security Surveillance System Setup",
         issueDate: "2025-04-05",
@@ -196,6 +203,7 @@ const tenders = [
         authorizedManager: "Mr. Alok Deshmukh"
     },
     {
+        tenderId: "100008",
         tenderName: "Medical Equipment Supply",
         title: "Procurement of Diagnostic Tools",
         issueDate: "2025-05-05",
@@ -224,6 +232,7 @@ const tenders = [
         authorizedManager: "Dr. Neha Bansal"
     },
     {
+        tenderId: "100009",
         tenderName: "Website Revamp",
         title: "Design and Development of Official Website",
         issueDate: "2025-01-01",
@@ -234,52 +243,52 @@ const tenders = [
         documentDownloadEndDate: "2025-01-15",
         bidSubmissionStartDate: "2025-01-05",
         bidSubmissionEndDate: "2025-01-17",
-        prebidMeetingAddressPortal: "https://tender.gov.in/prebid/88990",
-        technicalBidOpeningDate: "2025-01-18",
-        periodOfWork: "3 Months",
-        location: "IT Cell, Secretariat",
-        pincode: "411002",
-        bidOpeningPlace: "Govt IT Wing",
-        productCategory: "Web Services",
-        natureOfWork: "Development",
-        proposalsInvitedBy: "IT Department",
-        dateOfOpeningFinancialProposals: "2025-01-22",
+        prebidMeetingAddressPortal: "https://tender.gov.in/prebid/88901",
+        technicalBidOpeningDate: "2025-01-20",
+        periodOfWork: "2 Months",
+        location: "Secretariat, Capital",
+        pincode: "100001",
+        bidOpeningPlace: "IT Wing",
+        productCategory: "IT Services",
+        natureOfWork: "Web Development",
+        proposalsInvitedBy: "Information Dept",
+        dateOfOpeningFinancialProposals: "2025-01-23",
         modeOfSubmittingProposals: "Online",
         tenderWebsite: "https://tender.gov.in",
         modeOfPayment: "Online",
-        bankName: "Kotak Bank",
+        bankName: "Kotak Mahindra",
         methodOfSelection: "QCBS",
-        authorizedManager: "Ms. Anjali Menon"
+        authorizedManager: "Mr. Arvind Menon"
     },
     {
-        tenderName: "Green Landscaping Project",
-        title: "Beautification of Public Parks",
-        issueDate: "2025-02-01",
-        tenderFloatingDate: "2025-02-03",
-        description: "Plantation and landscaping of 5 public parks.",
-        bidderName: "NatureScape Services",
-        documentDownloadStartDate: "2025-02-03",
-        documentDownloadEndDate: "2025-02-15",
-        bidSubmissionStartDate: "2025-02-04",
-        bidSubmissionEndDate: "2025-02-20",
-        prebidMeetingAddressPortal: "https://tender.gov.in/prebid/99881",
-        technicalBidOpeningDate: "2025-02-22",
-        periodOfWork: "2.5 Months",
-        location: "City Gardens",
-        pincode: "302001",
-        bidOpeningPlace: "Garden Department HQ",
-        productCategory: "Environment",
-        natureOfWork: "Landscaping",
-        proposalsInvitedBy: "Urban Development Dept",
-        dateOfOpeningFinancialProposals: "2025-02-25",
+        tenderId: "100010",
+        tenderName: "Solid Waste Management",
+        title: "Door-to-Door Waste Collection Contract",
+        issueDate: "2025-06-10",
+        tenderFloatingDate: "2025-06-12",
+        description: "Waste collection and transportation in XYZ city.",
+        bidderName: "CleanCity Waste Solutions",
+        documentDownloadStartDate: "2025-06-12",
+        documentDownloadEndDate: "2025-06-25",
+        bidSubmissionStartDate: "2025-06-13",
+        bidSubmissionEndDate: "2025-06-27",
+        prebidMeetingAddressPortal: "https://tender.gov.in/prebid/99012",
+        technicalBidOpeningDate: "2025-06-29",
+        periodOfWork: "1 Year",
+        location: "XYZ City",
+        pincode: "800001",
+        bidOpeningPlace: "Sanitation Dept",
+        productCategory: "Waste Management",
+        natureOfWork: "Outsourcing",
+        proposalsInvitedBy: "Municipal Board",
+        dateOfOpeningFinancialProposals: "2025-07-02",
         modeOfSubmittingProposals: "Online",
         tenderWebsite: "https://tender.gov.in",
-        modeOfPayment: "Online/Bank Draft",
+        modeOfPayment: "Bank Transfer",
         bankName: "Canara Bank",
         methodOfSelection: "L1",
-        authorizedManager: "Mr. Ramesh Tiwari"
+        authorizedManager: "Ms. Renu Srivastava"
     }
 ];
-
 
 export default tenders;

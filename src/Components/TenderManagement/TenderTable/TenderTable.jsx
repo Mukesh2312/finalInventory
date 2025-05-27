@@ -225,10 +225,10 @@ const TenderTable = ({ status, tender }) => {
                     return (
                       <>
                         <tr key={item._id}>
-                          <td>{item.tender_id}</td>
+                          <td>{item.tenderId}</td>
                           <td>{item.title}</td>
                           <td>{item.issueDate}</td>
-                          <td>{item.authorised_person}</td>
+                          <td>{item.authorizedManager}</td>
 
                           <td>
                             <Link

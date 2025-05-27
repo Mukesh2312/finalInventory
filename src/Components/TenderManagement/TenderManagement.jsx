@@ -5,10 +5,13 @@ import stl from "./TenderManagement.module.css";
 import TenderTable from "./TenderTable/TenderTable";
 import { useNavigate } from "react-router-dom";
 import Spinner from "../Spinner/Spinner";
+import tenders from "../data/tender";
 
 import axios from "axios";
 
 const TenderManagement = () => {
+  const [localtender, setLocalTender] = useState(tenders);
+
   const [status, setStatus] = useState("all");
   const [spinner, setSpinner] = useState(false);
   const [tenderData, setTenderData] = useState({
@@ -42,7 +45,9 @@ const TenderManagement = () => {
   });
 
   useEffect(() => {
-    setSpinner(true);
+    // setTimeout(() => {
+    //   setSpinner(false);
+    // }, 3000);
     fetchingTenderData();
   }, []);
   const navigate = useNavigate();
@@ -50,6 +55,7 @@ const TenderManagement = () => {
     setStatus(e.target.value);
   };
 
+  // console.log(localtender);
   const fetchingTenderData = async () => {
     try {
       const res = await axios.get(
@@ -95,7 +101,7 @@ const TenderManagement = () => {
           </div>
 
           <div className="tenderTableContainer">
-            <TenderTable status={status} tender={tenderData} />
+            <TenderTable status={status} tender={localtender} />
           </div>
         </div>
       )}
