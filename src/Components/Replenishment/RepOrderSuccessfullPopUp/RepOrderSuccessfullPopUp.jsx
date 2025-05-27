@@ -64,7 +64,7 @@ const popupStyles = {
   transform: "translate(-50%, -50%)",
   color: "white",
   borderRadius: "5px",
-  zIndex: 1000,
+  // zIndex: 1000,
   width: "30rem",
   height: "20rem",
   border: "1px solid black",
